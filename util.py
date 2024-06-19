@@ -112,7 +112,7 @@ class Utils:
 
             if operation == "create":
 
-                if table_type in {"EXTERNAL","MANAGED","STREAMING_TABLE"}:
+                if table_type in {"EXTERNAL","MANAGED","STREAMING TABLE"}:
 
                     data_source_format = table['data_source_format']
                     table_location = table['storage_location']
